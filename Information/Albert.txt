@@ -4,6 +4,6 @@ Subject: DC 101 - Web Developement 1
 Instructor: Engr. John Eugene D. Fortunado
 Age: 25
 Address: 345, Brgy. Taysan, San Jose, Batangas
-Contact Number: 09266191563
-Description: A Computer Science Student of KLL taking the Course Subject of DC 101 for the A.Y. 2024 - 2025
+Email: lopezalbert910@gmail.com
+Description: A Computer Science student at KLL, delving into the subject of DC 101 during the 2024-2025 academic year.
 
