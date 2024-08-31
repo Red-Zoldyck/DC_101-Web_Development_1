@@ -7,21 +7,35 @@
     </title>
 <!--  https://htmlpreview.github.io/?https://github.com/Red-Zoldyck/DC_101-Web_Development_1/blob/c4cad2992d7d2fd93cc5441c0aaa8ed161b87671/Assignment/Albert_Assignment_LYRICS/Albert_Assignment_LYRICS.html    -->
 </head>
-<body style="height: 100vh; width: 100%; background: linear-gradient(45deg, #d2001a,#7462ff,#f48e21, #23d5ab); background-size: 300% 300%; animation: colorChange 12s ease-in-out infinite;"><style>@keyframes colorChange {0%{background-position: 0 50%;}50%{background-position: 100% 50%;}100%{background-position: 0 50%;}}</style>
-    <div class="vl" > <style> .vl:after {content: ""; display: table;clear: both;}</style>
-    <div id="Song_Title" style="float: left; padding: 10px; height: 100%; width: 35%; text-align: left; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-        <picture><img src="closer.jpg" alt="closer.jpg" width="70%"; height="85%"; style="display: block; margin-left: auto; margin-right: auto;margin-top: 10%; border-radius: 10%; border-style: solid; border-width: 0.6rem; border-color: #5241cf; "></picture>
-        <h1 style="text-align: center; color: rgb(1, 1, 118); font-size: 2.5rem; padding-bottom: 0; margin-bottom: 0;">
-            Closer <br>
-        </h1>
-        <h2 style="text-align: center; color: rgb(0, 0, 113); font-size: 1.5rem; padding-top: 0; margin-top: 0;">
-            Song by The Chainsmokers
-        </h2>
-        <div class="music" style="max-width: 500px; width: 100%; margin: 20px auto; padding: 5px; background-color: #2629d0; border-radius: 10px; box-shadow: 0 2px 10px rgba(66, 71, 177, 0.544); display: flex; flex-direction: column; align-items: center;"><style> audio {width: 80%; margin-top: 1px;} @media (max-width: 768px) { .music {max-width: 100%; padding: 1px;}}</style>
-        <audio controls style="display: block; margin-left: auto; margin-right: auto; size-adjust: 3rem;"><source src="The Chainsmokers - Closer ft. Halsey.mp3" type="audio/mp3"></audio>
+<body style="height: 100vh; width: 100%; min-width: 600px; background: linear-gradient(45deg, #d2001a,#7462ff,#f48e21, #23d5ab); background-size: 300% 300%; animation: colorChange 12s ease-in-out infinite;"><style>@keyframes colorChange {0%{background-position: 0 50%;}50%{background-position: 100% 50%;}100%{background-position: 0 50%;}}</style>
+    <header style="background: linear-gradient(45deg,#6b5be2,#21b6ca, #23d5ab,#6b5be2,#6b5be2); width: 100%; height: 1.5rem; display: flex; align-items: center; justify-content: space-between; text-align: center; padding-left: 1rem; position: fixed; top: 0; left: 0; z-index: 1000; font-family: 'Open Sans'; font-weight: bold; border-bottom-style: solid; background-size: 300% 300%; animation: colorChange1 5s ease-in-out infinite;"><style>@keyframes colorChange1 {0%{background-position: 0 50%;}50%{background-position: 100% 50%;}100%{background-position: 0 50%;}}</style> 
+        <div style="margin-left: 5px;">
+            <h2 id="logo">ALbert.</h2>
+        </div>
+        <div class="menu" style="display: block;">
+            <ul style="margin: 0; padding: 0; list-style: none; display: flex; align-items: center; padding-right: 5%;">
+                <li style="position: relative; display: inline-block; margin: 0 1.5rem; width: auto;"><a href="MainBio.html" style="color: rgb(0, 0, 0); font-size: 1.25rem; letter-spacing: 1px; font-weight: 100; text-decoration: none; transition: all ease-in-out; font-family: 'Open Sans'; font-weight: bold;">HOME</a></li>
+                <li style="position: relative; display: inline-block; margin: 0 1.5rem; width: auto;"><a href="ProfileBio.html" style="color: rgb(0, 0, 0); font-size: 1.25rem; letter-spacing: 1px; font-weight: 100; text-decoration: none; transition: all ease-in-out; font-family: 'Open Sans'; font-weight: bold;">PROFILE</a></li>
+                <li style="position: relative; display: inline-block; margin: 0 1.5rem; width: auto;"><a href="AboutBio.html" style="color: rgb(0, 0, 0); font-size: 1.25rem; letter-spacing: 1px; font-weight: 100; text-decoration: none; transition: all ease-in-out; font-family: 'Open Sans'; font-weight: bold;">ABOUT</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="vl"> <style> .vl:after {content: ""; display: table;clear: both;}</style>
+        <div style="position: fixed;">
+            <div id="Song_Title" style=" float: left; padding: 10px; height: 100%; width: 65%; text-align: left; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                <picture><img src="closer.jpg" alt="closer.jpg" width="70%"; height="85%"; style="display: block; margin-left: auto; margin-right: auto;margin-top: 10%; border-radius: 10%; border-style: solid; border-width: 0.6rem; border-color: #5241cf; "></picture>
+                <h1 style="text-align: center; color: rgb(1, 1, 118); font-size: 2.5rem; padding-bottom: 0; margin-bottom: 0;">
+                    Closer <br>
+                </h1>
+                <h2 style="text-align: center; color: rgb(0, 0, 113); font-size: 1.5rem; padding-top: 0; margin-top: 0;">
+                Song by The Chainsmokers
+                </h2>
+                <div class="music" style="max-width: 500px; width: 100%; margin: 20px auto; padding: 5px; background-color: #2629d0; border-radius: 10px; box-shadow: 0 2px 10px rgba(66, 71, 177, 0.544); display: flex; flex-direction: column; align-items: center;"><style> audio {width: 80%; margin-top: 1px;} @media (max-width: 768px) { .music {max-width: 100%; padding: 1px;}}</style>
+                <audio controls style="display: block; margin-left: auto; margin-right: auto; size-adjust: 3rem;"><source src="The Chainsmokers - Closer ft. Halsey.mp3" type="audio/mp3"></audio>
+            </div>
         </div>
     </div>
-        <div style="float: right; padding: 10px; height: 100%; width: 55%; text-size-adjust: 1rem; border-left-style: solid;">
+        <div style="float: right; padding: 10px; height: 100%; width: 60%; text-size-adjust: 1rem; border-left-style: solid;">
             <h4 style="text-align: center; color: darkblue; margin: auto; padding: auto; font-size: 1.5rem; margin-top: 1rem;">
             Lyrics 
         </h4>
