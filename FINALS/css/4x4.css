@@ -1,0 +1,291 @@
+
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 900px;
+  }
+  
+  .terrain-display {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  #main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .terrain-slider {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .terrain {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .terrain img {
+    max-width: 100px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: border 0.3s;
+  }
+  
+  .terrain img:hover {
+    border: 2px solid #007BFF;
+  }
+  
+  .vehicles-section h2,
+  .vehicles-section h3 {
+    color: #333;
+  }
+  
+  .vehicles-section ul {
+    list-style-type: none;
+    padding-left: 1.5rem;
+  }
+  
+  .vehicles-section ul li {
+    margin: 0.5rem;
+  }
+  
+.vehicle-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+  }
+  
+  .vehicle-list li {
+    text-align: center;
+    flex: 1;
+    padding: 1rem;
+    max-width: 200px;
+  }
+  
+  .vehicle-list img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .vehicle-list span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .vehicle-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .vehicle-list li {
+      max-width: 300px;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .system-link {
+    color: #007BFF;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .system-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .system-link.active {
+    font-weight: bold;
+    color: #FF5733; 
+  }
+  
+  .learn-more,
+  .back-to-models {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .learn-more:hover,
+  .back-to-models:hover {
+    background-color: #0056b3;
+  }
+  
+.outstanding-4x4 {
+    font-family: Arial, sans-serif;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+  }
+  
+  .outstanding-4x4 h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .outstanding-4x4 p {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .wrangler-model {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .wrangler-model img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .wrangler-model p {
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .feature {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .feature h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .feature p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .features-systems {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px;
+  }
+  
+  .systems-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f0f0f0; 
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .systems-list li {
+    border-bottom: 1px solid #dcdcdc; 
+  }
+  
+  .systems-list li:last-child {
+    border-bottom: none; 
+  }
+  
+  .system-link {
+    display: block;
+    text-decoration: none;
+    color: #333; 
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .system-link:hover {
+    background-color: #eaeaea; 
+  }
+  
+  .system-link.active {
+    background-color: #007bff; 
+    color: #fff; 
+  }
+  
+  .features-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .feature-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #features-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .features-systems {
+      grid-template-columns: 1fr; 
+    }
+  
+    .features-content {
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,302 @@
+
+
+#homepage-body {
+    position: relative; 
+}
+
+.image-container1 {
+    position: relative;
+}
+
+#homepagepic {
+    width: 100%;
+    height: 630px;
+}
+
+.button {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: rgb(15, 140, 113); 
+    color: white; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    text-align: center; 
+}
+
+.button:hover {
+    background-color: rgb(15, 152, 129); 
+    color: #0022ff; 
+}
+
+.ads {
+    position: absolute; 
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.ads .title1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ads p .text1 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.ads-container {
+    position: relative;
+}
+
+.ads1 {
+    position: relative; 
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.ads1 .title2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ads1 p .text2 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.mechanics button{
+    background-color: rgb(15, 140, 113);
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 0 25%;
+    cursor: pointer;
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 17px;
+}
+.vehicle-models1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 10px;
+}
+
+.vehicle1 {
+    text-align: center;
+}
+
+.vehicle1 img {
+    max-width: 250px;
+    height: auto;
+}
+
+#vehicles-section1 {
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#vehicles-section1 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#vehicles-section1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.video-container {
+    position: relative;
+    width: 100%; 
+    height: 83vh; 
+    overflow: hidden; 
+}
+
+video {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.controls {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+}
+
+.controls button {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.controls button:hover {
+    background-color: rgba(0, 208, 255, 0.9); 
+}
+
+.soc-med {
+    width: 100%;
+    background-color: #a29c9c;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#soc-site ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+    padding: 0;
+    margin: 0;
+}
+
+#soc-site ul li {
+    margin: 0 30 0 5px;
+}
+
+#soc-site ul li img {
+    width: 90%; 
+    height: auto;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#soc-site ul li img:hover {
+    transform: scale(1.2); 
+}
+
+
+@media (max-width: 768px) {
+    body{
+        background-color: black;
+    }
+    #homepage-body {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+    }
+    #homepagepic{
+        margin-top:55px;
+        width: 100%;
+        height: 40vh;
+        border-radius: 5px;
+    } 
+    .ads {
+        background-color: #665f5f;
+    }
+    .ads-container {
+        width: 100%;
+        margin-top: 20px;
+        padding: 0 10px;
+        background-color: #fff;
+    }
+
+    .ads {
+        position: relative;
+        transform: none;
+        top: auto;
+        left: auto;
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .ads1 {
+        position: relative;
+        max-width: 100%;
+        margin: 20px 0;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    .ads .title1, .ads1 .title2 {
+        font-size: 24px;
+    }
+
+    .ads p .text1, .ads1 p .text2 {
+        font-size: 14px;
+    }
+
+    #vehicles-section1{
+        position: relative;
+        transform: none;
+        top: auto;
+        left: auto;
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .vehicle-models1{
+        position: relative;
+        max-width: 100%;
+        margin: 20px 0;
+        top: auto;
+        left: auto;
+        right: au;
+        transform: none;
+    }
+    .vehicle1 img{
+        width: 30vw;
+    }
+    .vehicle1 h3{
+        font-size: 15px;
+    }
+
+    #vehicles-section1 h1{
+        font-size: 24px;
+    }
+
+    .video-container{
+        position: relative;
+        width: 100%;
+        height: auto; 
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+    .video-container video{
+        position: relative; 
+        width: 100%;
+        height: auto; 
+        display: block; 
+        margin: 0;
+      }
+    .video-container .controls{
+        position: absolute;
+        top: 20;
+        right: 10px;
+        margin-top: 5%;
+      }
+    .video-container .controls button{
+        font-size: 10px;
+    }
+}
