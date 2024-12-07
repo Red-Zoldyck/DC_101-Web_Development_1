@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeep-Wrangler</title>
+    <link rel="icon" href="img/jeep.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/wrangler.css">
+    <script src="https://kit.fontawesome.com/9cc3575940.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="Jeep-head">
+            <a href="index.html"><img class="JeepImg" src="img/logo-jeep.png" alt="logo-jeep"></a> 
+            
+            <button class="hamburger-menu" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="menu-container"> 
+            <nav>
+                <ul>
+                    <li><a href="#" id="vehicles-link">VEHICLES</a></li>
+                    <li><a href="#" id="capabilities">CAPABILITIES</a></li>
+                    <li><a href="#" id="jeep-life">JEEP LIFE</a></li>
+                </ul>    
+            </nav>        
+            <ul>    
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="creators.html">Creators</a></li>
+            </ul>
+            <div class="icons-container">
+                <a href="get_a_Quote.html" target="_blank"><img class="icons" src="img/shopping-cart-white-logo.png" alt="shopping-cart"></a>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="vehicles-section" class="hidden">
+        <h2>STANDARD MODELS</h2>
+        <div class="vehicle-models">
+            <a href="wrangler.html">
+                <div class="vehicle">
+                    <img src="img/wrangler.png" alt="Wrangler">
+                    <h3>WRANGLER</h3>
+                    <p>THE ICON</p>
+                    <p>Wrangler 4-Door Sport – <strong>PHP 4,790,000</strong></p>
+                    <p>Wrangler 2-Door Rubicon – <strong>PHP 5,590,000</strong></p>
+                    <p>Wrangler 4-Door Rubicon – <strong>PHP 5,780,000</strong></p>
+                </div>
+            </a>
+            <a href="grandCherokee.html">
+                <div class="vehicle">
+                    <img src="img/grand-cherokee.jpg" alt="Grand Cherokee L">
+                    <h3>GRAND CHEROKEE L</h3>
+                    <p>LEGACY LIVES ON</p>
+                    <p>Limited 3.6L – <strong>PHP 5,490,000</strong></p>
+                </div>
+            </a>
+        </div>
+        <button id="close-vehicles">CLOSE</button>
+    </div>
+
+    <section id="capabilities-section" class="hidden">
+        <div class="capabilities-container">
+            <a href="trail-rated-jeep.html"><div class="capability">
+                <img src="img/2017-Jeep-GlobalNav-Capability-Trail-Rated.jpg.img.600.jpg" alt="Trail Rated Badge">
+                <h3>TRAIL RATED®</h3>
+                <p>The Trail Rated badge on Jeep 4x4 vehicles represents a series of grueling tests that prove it’s off-road capabilities.</p>
+            </div></a>
+            <a href="4x4.html"><div class="capability">
+                <img src="img/2017-Jeep-GlobalNav-Capability-4x4.jpg.img.600.jpg" alt="4x4 Systems">
+                <h3>4X4 SYSTEMS</h3>
+                <p>Our incomparable range of sophisticated 4x4 systems lets you find your own way up, down, through or around almost anything.</p>
+            </div></a>
+        </div>
+    </section>     
+    
+    <section id="jeep-life-section" class="hidden">
+        <div class="jeep-life-container">
+            <div class="jeep-life-item">
+                <a href="history.html" class="jeep-life-link"><img src="img/2018-Jeep-History-Overview-Hero.jpg.img.2880.jpg" alt="Jeep History">
+                <h3>HISTORY</h3>
+                <p>Explore the rich history of Jeep®—from its origins in 1940 to its current legendary status.</p></a>
+            </div>
+        </div>
+    </section>
+
+    <div id="about">
+        <div class="container">
+            <img src="img/wrangler.jpg" alt="wrangler">
+            <div class="row">
+                
+                <div class="about-col-2">
+                    <div class="jeep-heading">
+                        <h1 class="jeep-title">JEEP<sub>®</sub> WRANGLER</h1>
+                        <h2 class="jeep-subtitle">THE ORIGINAL ICON OF ADVENTURE</h2>
+                    </div>                    
+                    <div class="about-col-1">
+                    <img src="img/jip.jpg" alt="Jeep Wrangler">
+                    </div>
+                    <p class="infoJeep">The Jeep<sub>®</sub> Wrangler is one of the Philippines' favorite 4x4 vehicles, blending the reliability and
+                        durability of the world’s toughest cars with the comfort, convenience, and technology you’d expect from a market leader.</p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('interior')">Interior</p>
+                        <p class="tab-links" onclick="opentab('exterior')">Exterior</p>
+                        <p class="tab-links" onclick="opentab('accessories')">Accessories</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="interior">
+                        <ul>
+                            <li>
+                                <span>DASHBOARD</span><br><br>
+                                <img src="img/in1.jpg" alt="Jeep Dashboard" class="tab-image">
+                            </li>
+                            <li>
+                                <span>CAR SEAT</span><br><br>
+                                <img src="img/seat.jpg" alt="Jeep Car Seat" class="tab-image">
+                            </li>
+                            <li>
+                                <span>CARGO FLOOR</span><br><br>
+                                <img src="img/cargo.jpg" alt="Jeep Cargo Floor" class="tab-image">
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="exterior">
+                        <ul>
+                            <li>
+                                <span>FULL EXPOSURE</span><br><br>
+                                <img src="img/extop.jpg" alt="Jeep Full Exposure" class="tab-image">
+                            </li>
+                            <li>
+                                <span>PREMIUM LED LIGHT</span><br><br>
+                                <img src="img/exlight.jpg" alt="Jeep LED Light" class="tab-image">
+                            </li>
+                            <li>
+                                <span>WHEEL SERIES</span><br><br>
+                                <img src="img/wheels.jpg" alt="Jeep Wheels" class="tab-image">
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="accessories">
+                        <ul>
+                            <li>
+                                <span>EXPLORER PACK</span><br><br>
+                                <img src="img/explorer.jpg" alt="Explorer Pack" class="tab-image">
+                            </li>
+                            <li>
+                                <span>TOWING PACK</span><br><br>
+                                <img src="img/towing.jpg" alt="Towing Pack" class="tab-image">
+                            </li>
+                            <li>
+                                <span>PET PARTITION</span><br><br>
+                                <img src="img/ccpet.jpg" alt="Pet Partition" class="tab-image">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="video-container">
+        <video id="jeepVideo" muted autoplay loop>
+            <source src="img/vidjeep.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="controls">
+            <button id="play-button">⏸</button>
+            <button id="mute-button">🔇</button>
+        </div>
+    </div>
+    
+    <div id="overview">
+        <center>
+            <h1 class="sub-title">OVERVIEW</h1>
+        </center>
+        <div class="oview-list">
+            <div class="oview">
+                <img src="img/collage.jpg" alt="Jeep Gallery">
+                <div class="layer">
+                    <h2>GALLERY</h2><br>
+                    <p>See the Jeep Wrangler in its element—ready to conquer any adventure. Browse our collection and ignite your passion for freedom and exploration!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="oview">
+                <img src="img/safety.jpg" alt="Jeep Safety">
+                <div class="layer">
+                    <h2>SAFETY AND SECURITY</h2><br>
+                    <p>Wrangler is always one step ahead with over 75 Standard and Available Safety and Security Features.<br><br>
+                        The All-New Jeep® Wrangler helps keep you and your passengers safe and secure.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="oview">
+                <img src="img/techin.jpg" alt="Jeep Technology">
+                <div class="layer">
+                    <h2>TECHNOLOGY</h2><br>
+                    <p>Our Most Technologically Advanced Wrangler Generation Ever offers plenty of available features to
+                        help keep you connected and in command, like the Uconnect® system featuring Voice Command functionality.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<div class="links1">
+    <a href="http://www.fcausautomobility.com/">
+        <div class="fca">
+            <img src="img/FCA-DriveAbilityLogo_Vertical-1030x642.png" alt="FCA-Drive Ability">
+            <div class="external-link">
+                <img src="img/external-link.png" alt="external-link" >
+            </div>
+        </div>
+    </a>
+    <a href="https://www.fcacountryfinder.com/">
+        <div class="find-country">
+            <div class="globe">
+                <img src="img/globe.png" alt="globe">
+            </div>
+            Find Your Country
+            <div class="external-link">
+                <img src="img/external-link.png" alt="external-link" >
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="footer-container">
+    <footer class="footer">
+        <div class="footer-column">
+            <h3>VEHICLES</h3>
+            <ul>
+                <li><a href="wrangler.html">Wrangler</a></li>
+                <li><a href="grandCherokee.html">Grand Cherokee L</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>SERVICE</h3>
+            <ul>
+                <li><a href="#">Warranty</a></li>
+                <li><a href="#">Mopar Vehicle Protection</a></li>
+                <li><a href="#">Customer Care</a></li>
+                <li><a href="#">Service Maintenance</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>SHOPPING TOOLS</h3>
+            <ul>
+                <li><a href="#">Sign Up For Updates</a></li>
+                <li><a href="#">Find A Dealer</a></li>
+                <li><a href="get_a_Quote.html">Get A Quote</a></li>
+                <li><a href="#">Schedule A Test Drive</a></li>
+                <li><a href="#">Download Brochure</a></li>
+                <li><a href="#">Financing</a></li>
+                <li><a href="#">Offers</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>CAPABILITIES</h3>
+            <ul>
+                <li><a href="trail-rated-jeep.html">Trail Rated</a></li>
+                <li><a href="4x4.html">4x4 Systems</a></li>
+                <li><a href="#">FAQs & Glossary</a></li>
+                <li><a href="#">Fuel Efficiency</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>LEGAL</h3>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#">Legal, Safety, and Trademark</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>JEEP LIFE</h3>
+            <ul>
+                <li><a href="history.html">History</a></li>
+                <li><a href="#">Partnership</a></li>
+                <li><a href="#">News and Events</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>SOCIAL</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/jeepPH"><img src="img/facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/jeepph/"><img src="img/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/channel/UC072FuFoX22KTJq3ZMf5h1Q"><img src="img/youtube-icon.png" alt="YouTube"></a>
+                <a href="https://twitter.com/jeepph/"><img src="img/twitter-icon.png" alt="X"></a>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer-bottom">
+        <div class="footer-bottom-content">
+            <div class="footer-logo">
+                <img src="img/fca-logo-small.png" alt="FCA Logo">
+                <img src="img/chrysler-capital-logo-white.png" alt="Chrysler Capital Logo">
+            </div>
+            <p>
+                ©2024 FCA US LLC. All Rights Reserved.<br>
+                Chrysler, Dodge, Jeep, Ram, Mopar, and SRT are registered trademarks of FCA US LLC.<br>
+                ALFA ROMEO and FIAT are registered trademarks of FCA Group Marketing S.p.A., used with permission.
+            </p>
+            <p class="msrp-details">
+                *MSRP excludes destination, taxes, title, and registration fees. Starting at price refers to the base model; optional equipment not included. A more expensive model may be shown. Pricing and offers may change at any time without notification. To get full pricing details, see your dealer.<br>
+                Models and specifications may vary by market. Please consult your local dealer.
+            </p>
+        </div>
+    </footer>
+</div>
+<script src="jscript/video_script.js"></script>
+<script src="jscript/wrangler.js"></script>
+<script src="jscript/header_script.js"></script>
+</body>
+
+</html>

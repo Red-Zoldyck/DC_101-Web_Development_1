@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Quote</title>
+    <link rel="icon" href="img/jeep.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/get_a_quote.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>GET A QUOTE</h1>
+        <p>Please take a moment to fill out the following form.</p>
+        <form id="quoteForm">
+            <label for="model">Select the model</label>
+            <select id="model" required>
+                <option value="">-- Select the model --</option>
+                <option value="WRANGLER">WRANGLER</option>
+                <option value="WRANGLER">WRANGLER Unlimited</option>
+                <option value="GRAND CHEROKEE L">GRAND CHEROKEE L</option>
+            </select>
+
+            <label>Please provide your contact details</label>
+            <div class="form-group">
+                <input type="text" id="firstName" placeholder="First Name*" required>
+                <input type="text" id="lastName" placeholder="Last Name*" required>
+            </div>
+            <input type="email" id="email" placeholder="Email*" required>
+            <div class="form-group">
+                <input type="tel" id="phone" placeholder="Phone*" required>
+                <select id="deliveryTime" required>
+                    <option value="">-- Please Select --</option>
+                    <option value="Morning">Morning</option>
+                    <option value="Afternoon">Afternoon</option>
+                    <option value="Evening">Evening</option>
+                </select>
+            </div>
+
+            <label for="dealership">Please select preferred dealership*</label>
+            <select id="dealership" required>
+                <option value="" disabled selected>-- Select Dealership --</option>
+                <option value="eep Pampanga - Auto Port Corporation">Jeep Pampanga - Auto Port Corporation</option>
+                <option value="Jeep Cebu - Global Star Motors Corporation">Jeep Cebu - Global Star Motors Corporation</option>
+                <option value="Jeep Clark - Auto Port Corporation">Jeep Clark - Auto Port Corporation</option>
+                <option value="Jeep Greenhills - ICATS Motors Inc.">Jeep Greenhills - ICATS Motors Inc.</option>
+                <option value="Jeep Alabang - Automotive Icon Inc.">Jeep Alabang - Automotive Icon Inc.</option>
+            </select>
+
+            <textarea id="noteToDealer" placeholder="Note to dealer"></textarea>
+            
+            <div class="privacy">
+                <p>
+                    * By submitting your contact information, you are asking us to contact you about Fiat Chrysler Automobiles (FCA) products and/or services.
+                </p>
+                <label>
+                    <input type="checkbox" id="agreePrivacy" required>
+                    I am happy to receive other communication from Fiat Chrysler Automobiles.
+                </label>
+            </div>
+            <button type="submit" id="submitBtn">SUBMIT REQUEST</button>
+        </form>
+    </div>
+    <script src="jscript/get_a_quote.js"></script>
+</body>
+</html>
